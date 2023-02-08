@@ -234,7 +234,6 @@ VAR
 /-- Property P1: 
     Query: Can the consumer bypass access token checks?
     Implementation idea: to get a service, consumer's slice info must match the producer's.
-    Assumption: OAMs present, No NF update. 
     Result: Confused Producer Attack for ATReq of specific NF Type (access services of a producer using an access token of another.)
     --/
     LTLSPEC
