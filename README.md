@@ -18,3 +18,6 @@ read_model -i NGCoreVerifier.smv
 go_bmc
 check_ltlspec_bmc -k 20 # check the property with ltl up to a bound of 20 transitions
 ```
+
+## Expected result
+One output from running the above script (a counterexample which represends a Confused Producer Attack) can be found in [result.txt](https://github.com/50880606/NGCoreVerifier/blob/main/result.txt).
